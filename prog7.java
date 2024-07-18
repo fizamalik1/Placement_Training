@@ -1,3 +1,6 @@
+// Print even numbers from 1 to 30 then odd number from 1 to 30 using 2 while loops
+// variables i & j , increment & decrement concept is used
+
 public class prog7 
 {
     public static void main(String[] args) 
