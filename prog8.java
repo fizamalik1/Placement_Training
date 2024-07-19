@@ -1,6 +1,6 @@
 // Print numbers from 1 to 10 in straight as well as in reverse order
 
-public class prog8
+public class Prog8
 {
     public static void main(String[] args)
     {
@@ -10,4 +10,4 @@ public class prog8
         }
         
     }
-}
+} 

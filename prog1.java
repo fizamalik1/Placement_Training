@@ -1,6 +1,6 @@
 // code using nested if-else for printing grades according to the marks as input
 
-public class prog1
+public class Prog1
 {
     public static void main(String args[]) 
     {

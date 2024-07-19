@@ -1,6 +1,6 @@
 // Print numbers from 0 to 10 (we can take any input values) using While Loop
 
-public class prog4 
+public class Prog4 
 {
     public static void main(String[] args) 
     {

@@ -1,6 +1,6 @@
 // Print even numbers between 1 to 30 using Do..while Loop
 
-public class prog3
+public class Prog3
 {
     public static void main(String[] args)
     {

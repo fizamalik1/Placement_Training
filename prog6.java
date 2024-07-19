@@ -1,6 +1,6 @@
 // Division of 2 numbers using float datatype in result
 
-public class prog6 
+public class Prog6 
 {
     public static void main(String[] args) 
     {

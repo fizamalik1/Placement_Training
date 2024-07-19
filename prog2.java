@@ -1,6 +1,6 @@
 // Print even numbers between 1 to 30 using FOR Loop
 
-public class prog2 
+public class Prog2 
 {
     public static void main(String args[]) 
     {
