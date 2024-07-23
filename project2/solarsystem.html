@@ -4,8 +4,8 @@
         <style>
             body {
                 margin: 0;
-                height: 100vh;
-                display: flex;
+                height: 100vh; /*viewport height*/
+                display: flex; /*flexible layout structure for a container*/
                 align-items: center;
                 justify-content: center;
                     ;
@@ -28,13 +28,14 @@
                 height: 10em;
                 background-color: yellow;
                 border-radius: 50%;
-                box-shadow: 0 0 3em white;
+                box-shadow: 0 0 3em white; /*no horizontal displacement, no vertical displacement,
+                blur radius of the shadow by 3em units*/
             }
 
             .earth,.moon {
                 position: absolute;
                 border-style: solid;
-                border-color: white transparent transparent transparent;
+                border-color: white transparent transparent transparent; /*top-white, right,bottom,left - transparent*/
                 border-width: 0.1em 0em 0 0;
                 border-radius: 50%;
             }
@@ -44,7 +45,9 @@
                 left: 5em;
                 width: 30em;
                 height: 30em;
-                animation: orbit 36.5s linear infinite;
+                animation: orbit 36s linear infinite; /*animation-orbit, takes 36s to complete 1 cycle,
+                timing function - linear(constant speed from start to end,no acc no dec),
+                animation will repeat infinite times*/
             }
 
             .moon {
@@ -55,7 +58,7 @@
                 animation: orbit 2.7s linear infinite;
             }
 
-            .earth::before,
+            .earth::before, /*create small small white circle at the top left corner of .earth & .moon element*/
             .moon::before {
                 content: '';
                 position: absolute;
@@ -82,17 +85,17 @@
                 to {
                     transform: rotate(360deg);
                 }
-            }
+            } /*continuous rotation of the element, to represent end state of the animation in keyframe*/
 
 
         </style>
     </head>
 
     <body>
-        <div class="container">
-            <div class="sun"></div>
-            <div class="earth">
-                <div class="moon"></div>
+        <div class="container">  <!--center the solar system, set up a relative positioning context-->
+            <div class="sun"></div> <!--styled to be a yellow circle and is centered within the container-->
+            <div class="earth">  <!--styled as a blue circle and is positioned absolutely within the container-->
+                <div class="moon"></div> <!--styled as a gray circle and is positioned absolutely within the Earth-->
             </div>
         </div>
     </body>
